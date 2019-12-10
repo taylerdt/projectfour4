@@ -1,0 +1,121 @@
+<html>
+<head>
+	<title> Sweet as a Cookie </title>
+<link rel="stylesheet" type = "text/css" href="Project4.css"
+</head>
+<body>
+<div id = "logo">
+<img src= "SweetCookie.jpg" width="1095px" height="150px">
+</div>
+<div id="menu">
+
+		    <section class="container content-section">
+            <h2 class="section-header">STORE ITEMS</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title"> Chocolate Chip Cookie</span>
+                    <img class="shop-item-image" src="ChocoChunk.jpg" width="200px" height="200px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$3.50</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title"> Sugar Cookie </span>
+                    <img width="300px" class="shop-item-image" src="Sugar.jpg" width="200px" height="200px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$3.75</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">M & M's Cookie</span>
+                    <img width="250px" class="shop-item-image" src="M&M.jpg" width="200px" height="200px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$3.50</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Peanut Butter Cookie</span>
+                    <img class="shop-item-image" src="PB.jpg" width="200px" height="200px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$2.50</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+				
+            <div class="shop-item">
+                <span class="shop-item-title">Oatmeal Raisin Cookie</span>
+                <img class="shop-item-image" src="OatmealR.jpg"width="200px" height="200px">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$3.25</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Snickerdoodle Cookie</span>
+                <img class="shop-item-image" src="Snickerdoodle.jpg" width="200px" height="200px">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$3.75</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            </div>
+        </section>
+       
+</div>
+<div id= "wallet">
+	<h1>Wallet</h1>
+
+<input id="money" placeholder=""> <br>
+<button id="addMoneyButton" onclick="addMoney()">Add Money $$$</button>
+<h3 class="cash"> Wallet Balance $<span id="bankAmount">00</span> </h3>
+
+
+
+	              
+</div>
+<div id="cart">
+
+                   <div class="cart-btn">
+                     <span class="nav-icon">
+                       <i class="fas fa-cart-plus"></i>
+                     </span>
+                     <div class="cart-items"></div>
+                   </div>
+           <section class="container content-section">
+               <h2 class="section-header">CART</h2>
+               <div class="cart-row">
+                 <div>
+                   <span class="cart-item cart-header cart-column"></span>
+                   <span class="cart-price cart-header cart-column">
+                 </div>
+                 </span>
+                   <span class="cart-quantity cart-header cart-column"></span>
+               </div>
+               <div class="cart-items">
+               </div>
+    
+               <div class="cart-total">
+                   <strong class="cart-total-title">Total</strong>
+                   <br/> <br/> <br/>$
+                   <span class="cart-total-price">00</span>
+               </div>
+               <button class="btn btn-primary btn-purchase" type="button" onclick="purchaseClicked()"> PURCHASE</button>
+           </section>  
+    </section>
+
+	
+</div>
+<div id="instruct">
+	Instructions
+<ol>
+<li> Add cookies to the cart</li>
+<li> Add money to your wallet </li>
+<li> Eat and enjoy your cookies! </li>
+</ol>
+</div>
+</body>
+<script src="cookie.js"></script>
+</html>
